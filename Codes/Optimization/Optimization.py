@@ -1,3 +1,9 @@
+""" More information for this code is detailed in the following article:
+    Title: EEG-based BCI: A novel improvement for EEG signals classification based on real-time preprocessing
+    Journal: Computers in Biology and Medicine
+    DOI: 10.1016/j.compbiomed.2022.105931
+    Publication date: August 2022
+"""
 import numpy as np
 def SCA(Classifier,pos_min,pos_max,dim,pop_size,iter):
     loss_pos=np.zeros(dim)
